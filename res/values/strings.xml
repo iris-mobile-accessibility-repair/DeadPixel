@@ -1,0 +1,8 @@
+<resources>
+   <string name="app_name">DeadPixel</string>
+   <string name="info">info</string>
+   <string name="developed_by">developed by: </string>
+   <string name="author">Code61</string>
+   <string name="license">
+      <div>This application is distributed under <a href="http://www.gnu.org/licenses/" title="GPLv3">GPLv3</a> license</div></string>
+</resources>

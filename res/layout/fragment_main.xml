@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/fragment_main"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/light_blue">
+
+   <TextView
+      android:id="@+id/appName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/app_name"
+      android:textColor="@color/white"
+      android:textSize="20sp"
+      android:layout_marginLeft="15dp"
+      android:layout_marginTop="30dp"/>
+
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/infoButton"
+      android:layout_marginTop="30dp"
+      android:layout_marginRight="15dp"
+      android:layout_alignParentRight="true"
+      android:text="@string/info"
+      android:textSize="20sp"
+      android:textColor="@color/white"
+      android:background="@android:color/transparent"/>
+
+   <RelativeLayout
+      android:id="@+id/button_container"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="60dp">
+
+      <Button
+         android:id="@+id/white_button"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_margin="10dp"
+         android:clickable="true"
+         android:background="@drawable/circle_white"/>
+
+      <Button
+         android:id="@+id/black_button"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_margin="10dp"
+         android:layout_toRightOf="@id/white_button"
+         android:clickable="true"
+         android:background="@drawable/circle_black"/>
+
+      <Button
+         android:id="@+id/red_button"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_margin="10dp"
+         android:layout_below="@id/white_button"
+         android:clickable="true"
+         android:background="@drawable/circle_red"/>
+
+      <Button
+         android:id="@+id/green_button"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_margin="10dp"
+         android:layout_toRightOf="@id/red_button"
+         android:layout_below="@id/black_button"
+         android:clickable="true"
+         android:background="@drawable/circle_green"/>
+
+      <Button
+         android:id="@+id/blue_button"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_margin="10dp"
+         android:layout_below="@id/red_button"
+         android:clickable="true"
+         android:background="@drawable/circle_blue"/>
+
+      <Button
+         android:id="@+id/yellow_button"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_margin="10dp"
+         android:layout_toRightOf="@id/blue_button"
+         android:layout_below="@id/green_button"
+         android:clickable="true"
+         android:background="@drawable/circle_yellow"/>
+
+      <Button
+         android:id="@+id/brown_button"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_margin="10dp"
+         android:layout_below="@id/blue_button"
+         android:clickable="true"
+         android:background="@drawable/circle_brown"/>
+
+      <Button
+         android:id="@+id/gray_button"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_margin="10dp"
+         android:layout_toRightOf="@id/brown_button"
+         android:layout_below="@id/yellow_button"
+         android:clickable="true"
+         android:background="@drawable/circle_gray"/>
+
+
+   </RelativeLayout>
+
+
+
+</RelativeLayout>
